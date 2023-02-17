@@ -22,7 +22,7 @@ class _FailureState extends State<Failure> {
             const SizedBox(
               height: 720,
               width: double.infinity,
-              // child: Image.asset('assets/images/f (2).jpg',fit: BoxFit.cover,),
+
             ),
             ListView(
               physics: const BouncingScrollPhysics(),

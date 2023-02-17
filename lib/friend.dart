@@ -40,7 +40,6 @@ class _FriendState extends State<Friend> {
       ),
     );
   }
-  // ignore: non_constant_identifier_names
   Widget Box(String data) {
     return Padding(
       padding: const EdgeInsets.all(8),
