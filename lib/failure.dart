@@ -17,30 +17,30 @@ class _FailureState extends State<Failure> {
           title: const Text("Failure"),
           centerTitle: true,
         ),
-        body: Stack(
-          children: [
-            const SizedBox(
-              height: 720,
-              width: double.infinity,
-
-            ),
-            ListView(
-              physics: const BouncingScrollPhysics(),
-              children: [
-                Box("The secret of life is to fall seven times and to get up eight times."),
-                Box("Failure is another stepping stone to greatness."),
-                Box("I can accept failure. Everyone fails at something. But I can't accept not trying."),
-                Box("Failure is a part of the process. You just learn to pick yourself back up."),
-                Box("Our greatest glory is not in never failing, but in rising every time we fail."),
-                Box("Those who dare to fail miserably can achieve greatly."),
-                Box("There is no innovation and creativity without failure. Period."),
-                Box("There are no failures–just experiences and your reactions to them."),
-                Box("It's fine to celebrate success but it is more important to heed the lessons of failure."),
-                Box("Do not fear mistakes. You will know failure. Continue to reach out."),
-              ],
-            ),
-          ],
-        ),
+        // body: Stack(
+        //   children: [
+        //     const SizedBox(
+        //       height: 720,
+        //       width: double.infinity,
+        //
+        //     ),
+        //     ListView(
+        //       physics: const BouncingScrollPhysics(),
+        //       children: [
+        //         Box("The secret of life is to fall seven times and to get up eight times."),
+        //         Box("Failure is another stepping stone to greatness."),
+        //         Box("I can accept failure. Everyone fails at something. But I can't accept not trying."),
+        //         Box("Failure is a part of the process. You just learn to pick yourself back up."),
+        //         Box("Our greatest glory is not in never failing, but in rising every time we fail."),
+        //         Box("Those who dare to fail miserably can achieve greatly."),
+        //         Box("There is no innovation and creativity without failure. Period."),
+        //         Box("There are no failures–just experiences and your reactions to them."),
+        //         Box("It's fine to celebrate success but it is more important to heed the lessons of failure."),
+        //         Box("Do not fear mistakes. You will know failure. Continue to reach out."),
+        //       ],
+        //     ),
+        //   ],
+        // ),
       ),
     );
   }
